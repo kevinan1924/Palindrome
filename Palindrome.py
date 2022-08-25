@@ -11,3 +11,10 @@ for i in range(1, len(string)+1):
     print("Palindrome")
   else:
     print("Not Palindrome")
+
+    
+inp = input("Enter a string: ")
+if inp[::-1] == inp:
+  print("Your entered string is palindrome.")
+else:
+  print("Your string is not palindrome. ")
